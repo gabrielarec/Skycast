@@ -3,26 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SkyCast</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
-    <title>SkyCast</title>
 </head>
+
 <body>
     <h1> Weather Dashboard</h1>
-    <div id="weather-dashboard">
+<div id="weather-dashboard">
         <div class="left-cont">
             <form id="city-form">
-                <input type="text" id="city-input" placeholder="Enter a city name..">
+                <input type="text" id="city-input" placeholder="Enter a city name...">
                 <button type="submit" id="submit-button"> Search</button>
             </form>
             <div id="search-history"> </div>
         </div> 
-    </div>
     
     <div class="right-cont"> 
         <div id="weather-display"></div>
         <div id="five-days-forecast"></div>       
     </div>
+
+</div>
+ 
     <script src="skycast.js"></script>
 </body>
 </html>
